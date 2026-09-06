@@ -4,3 +4,14 @@ data/raw/*
 __pycache__/
 .ipynb_checkpoints/
 *.pyc
+sql/*.db
+# Fichiers temporaires SQLite
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Fichier de session SQLTools (scratch, pas une requête finale)
+Hotel Analytics.session.sql
+
+# Base SQLite régénérable depuis data/processed/
+sql/hotel_analytics.db

@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Hotel Analytics",
+            "database": "${workspaceFolder}/sql/hotel_analytics.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
